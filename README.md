@@ -1,45 +1,54 @@
-# template-empty
-_description: An empty template for your code sample_
+# create_events_c_sharp
 
-Please include this sample in the [org readme](https://github.com/nylas-samples/.github/blob/main/profile/README.md)?
+This sample will show you to easily create events using the Events Endpoint API.
 
-<br />
+## Setup
 
-## Installation
+```bash
+$ mkdir create_events && cd create_events
 
-The recommended way to use this sample is ...
+$ dotnet new console
+```
 
-You can also clone the repository ...
+### System dependencies
 
-You'll find more detailed instructions ...
+- RestSharp
+- DotNetEnv
+
+### Gather environment variables
+
+You'll need the following values:
+
+```text
+ACCESS_TOKEN = ""
+CALENDAR_ID = ""
+```
+
+Add the above values to a new `.env` file:
+
+```bash
+$ touch .env # Then add your env variables
+```
+
+# Compilation
+
+To compile the comment we need to use this `dotnet` command:
+
+```bash
+$ dotnet run --project create_events.csproj
+```
+
+## Usage
+
+Run the app:
+
+```bash
+$ ./bin/Debug/net6.0/create_events
+```
+
+When you run it, it will display the newly created event and wait for a keystoke to end
 
 
-<br />
+## Learn more
 
-
-## FAQ
-
-Q: 
-
-A: 
-
-
-<br />
-
-## Get support
-
-If you found a bug or want to suggest a new [feature/use case/sample], please file an issue.
-
-If you have questions, comments, or need help with code, we're here to help:
-- Email us at support@nylas.com
-
-<br />
-
-## Contributing
-
-...
-
-<br />
-
-## Authors
-- @
+Visit our [Nylas Calendar API documentation](https://developer.nylas.com/docs/connectivity/calendar/) to learn more.
