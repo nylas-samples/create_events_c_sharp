@@ -20,7 +20,8 @@ $ dotnet new console
 You'll need the following values:
 
 ```text
-ACCESS_TOKEN = ""
+V3_API_KEY = ""
+GRANT_ID = ""
 CALENDAR_ID = ""
 ```
 
